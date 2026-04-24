@@ -1,0 +1,13 @@
+:root {
+    --tron-blue: #00fbff;
+    --tron-dark: #050505;
+    --tron-glow: 0 0 10px var(--tron-blue), 0 0 20px var(--tron-blue);
+}
+
+.chat-box {
+    background: var(--tron-dark);
+    border: 1px solid var(--tron-blue);
+    box-shadow: inset var(--tron-glow);
+    font-family: 'Courier New', monospace; /* Estilo terminal */
+    color: var(--tron-blue);
+}
